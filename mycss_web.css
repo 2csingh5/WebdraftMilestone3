@@ -5,6 +5,13 @@
   margin: 0px;
 }
 	
+.jumbotron {
+  margin-top: 20px;
+  background-image: url("https://www.mountsinai.org/files/MSHealth/Assets/Media/final/new-york-city-brooklyn-bridge-2.jpg");
+  background-size: cover;
+  color: white;
+}
+	
 #nav {
   margin: 0;
   padding: 0;
