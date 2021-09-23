@@ -1,6 +1,7 @@
 
 @media only screen and (min-width: 650px){
 
+/*
 body{
 margin 0;
 padding 0;
@@ -29,7 +30,14 @@ animation: bgcolor infinite 30s;
 }
 
 }
-          
+*/
+
+body{
+margin 0;
+padding 0;
+background-color: black;
+}	
+
 #nav {
   margin: 0px;
   padding: 0px;
