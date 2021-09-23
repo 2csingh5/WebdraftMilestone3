@@ -1,37 +1,16 @@
 
 @media only screen and (min-width: 650px){
-
-/*
 body{
-margin 0;
-padding 0;
-animation: bgcolor infinite 30s;
+
+background-color:#696969;
 }
 
-@keyframes bgcolor{
-
-0%{
-	background: #e74c3c;
+.container{
+	margin: 0;
+	padding: 0;
 }
-20%{
-	background: #2980b9;
-}
-40%{
-	background: #f1c40f;
-}
-60%{
-	background: #8e44ad;
-}
-80%{
-	background: #34495e;
-}
-100%{
-	background: #e74c3c;
-}
-
-}
-*/	
-
+    
+          
 #nav {
   margin: 0px;
   padding: 0px;
@@ -55,6 +34,44 @@ animation: bgcolor infinite 30s;
 #nav li a:hover:not(.active) {
   background-color: #555;
   color: white;
+}
+
+#LangTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#LangTable td, #LangTable th {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+#LangTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#LangTable tr:hover {background-color: yellow;}
+
+#LangTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#FavTable{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: #7fc3c0;
+}
+
+#FavTable th, td {
+  border: 2px solid #cfb845; ;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px;
 }
 
 .BasicProfileInfo{
@@ -95,17 +112,18 @@ a:hover {
   color:yellow;
 }
 
-.jumbotron {
-   height:300px;
-   width: 100%;
-   background-image: url("https://www.mountsinai.org/files/MSHealth/Assets/Media/final/new-york-city-											brooklyn-bridge-2.jpg");
-   background-size: cover;
-   color: white;
-   text-align:center;
-   background-position: center center;
-   padding-bottom: 0;
+            .jumbotron {
+ 			 	height:300px;
+                width: 100%;
                 
-}
+  				background-image: url("https://www.mountsinai.org/files/MSHealth/Assets/Media/final/new-york-city-											brooklyn-bridge-2.jpg");
+  				background-size: cover;
+  				color: white;
+                text-align:center;
+                background-position: center center;
+                padding-bottom: 0;
+                
+			}
   
 div{
   padding:10px 16px;
@@ -114,7 +132,6 @@ div{
 h1, h2{
 	text-align:center;
 }
-
 
 
 }
