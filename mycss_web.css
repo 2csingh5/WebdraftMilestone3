@@ -2,10 +2,13 @@
 @media only screen and (min-width: 650px){
 
   .jumbotron {
-  margin-top: 20px;
-  background-image: url("https://www.mountsinai.org/files/MSHealth/Assets/Media/final/new-york-city-brooklyn-bridge-2.jpg");
-  background-size: cover;
-  color: white;
+   height:300px;
+   width: 100%;
+   background-image: url("https://www.mountsinai.org/files/MSHealth/Assets/Media/final/new-york-city-brooklyn-bridge-2.jpg");
+   background-size: cover;
+   background-position: center center;
+   color: white;
+   text-align:center;
 }
 	
 /*
