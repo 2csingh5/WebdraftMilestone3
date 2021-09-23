@@ -1,15 +1,16 @@
 
 @media only screen and (min-width: 650px){
 
- body{
-  margin: 0px;
-}
-	
-.jumbotron {
+  .jumbotron {
   margin-top: 20px;
   background-image: url("https://www.mountsinai.org/files/MSHealth/Assets/Media/final/new-york-city-brooklyn-bridge-2.jpg");
   background-size: cover;
   color: white;
+}
+	
+/*
+ body{
+  margin: 0px;
 }
 	
 #nav {
@@ -150,4 +151,7 @@ a:hover {
 @media print {
 .screen-only {
 display: none
+}
+*/
+	
 }
