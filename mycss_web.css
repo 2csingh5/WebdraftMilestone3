@@ -131,7 +131,17 @@ div{
 h1, h2{
 	text-align:center;
 }
-
+.footer {
+   height:150px;
+   width: 100%;
+   background-image: url("https://www.menumasters.net/images/footer-bg.jpg");
+   background-size: cover;
+   color: white;
+   text-align:center;
+   background-position: center center;
+   padding-bottom: 10px;
+  
+}
 
 }
 
